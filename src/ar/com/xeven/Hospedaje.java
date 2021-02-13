@@ -1,5 +1,11 @@
 package ar.com.xeven;
 
-public class Hospedaje implements Reservable, LowCost{
-    
+import java.util.Collection;
+
+public abstract class Hospedaje implements Reservable, LowCost{
+
+    @Override
+    public void informarPrecio() {
+        LowCost.super.informarPrecio();
+    }
 }

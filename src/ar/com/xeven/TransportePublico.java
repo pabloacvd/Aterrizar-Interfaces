@@ -1,6 +1,7 @@
 package ar.com.xeven;
-
-public class TransportePublico extends Transporte{
+// se pueden comprar pasajes
+// no hay TRENES low cost
+public abstract class TransportePublico extends Transporte{
 
     public TransportePublico(String nombre) {
         super(nombre);

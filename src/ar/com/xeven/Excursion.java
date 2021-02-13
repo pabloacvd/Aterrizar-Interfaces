@@ -1,4 +1,5 @@
 package ar.com.xeven;
 
-public class Excursion {
+public class Excursion implements Reservable{
+
 }

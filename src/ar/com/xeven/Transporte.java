@@ -1,7 +1,11 @@
 package ar.com.xeven;
 
-public class Transporte {
-    private String nombre;
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Transporte {
+    protected String nombre;
+    protected Double precio = 0.00;
 
     public Transporte(String nombre) {
         this.nombre = nombre;
